@@ -68,20 +68,22 @@ Set a Custom DPI For the XPANEL Desktop App
 <hr/>
 
 <h3>Repack app.asar</h3>
-<li>After setting your DPI navigate back to the resources folder</li>
-<li>Move the original app.asar file somewhere out of this directory or delete the file entirely</li>
-<li>Open a powershell window here via right click + shift or navigate to this folder in the cmd terminal
-    <img src="https://github.com/user-attachments/assets/9502b70e-b60a-4321-bcf0-e8e6b7eddbdf" alt="open powershell window">
-</li>
-<li>Excute the following command to pack the unpack folder into a new app.asar file with your made changes: 'npx asar pack unpack app.asar'
-    <img src="https://github.com/user-attachments/assets/bba512f1-a14d-4bfb-8f9d-457cb884eb73" alt="pack unpack to rebuild app.asar">
-</li>
-
-<hr />
-<h3>Open xpanel-desktop.exe</h3>
-<li>Return to the folder where you originally extracted all the files and open xpanel-desktop.exe</li>
-<li>On the DPI page your new DPI should be there now! Enjoy :)</li>
-<img src="https://github.com/user-attachments/assets/95c7bf41-1341-4bd1-9ef8-57e757f90a83" alt="Finsihed DPI!">
+<ol>
+  <li>After setting your DPI navigate back to the resources folder</li>
+  <li>Move the original app.asar file somewhere out of this directory or delete the file entirely</li>
+  <li>Open a powershell window here via right click + shift or navigate to this folder in the cmd terminal
+      <img src="https://github.com/user-attachments/assets/9502b70e-b60a-4321-bcf0-e8e6b7eddbdf" alt="open powershell window">
+  </li>
+  <li>Excute the following command to pack the unpack folder into a new app.asar file with your made changes: 'npx asar pack unpack app.asar'
+      <img src="https://github.com/user-attachments/assets/bba512f1-a14d-4bfb-8f9d-457cb884eb73" alt="pack unpack to rebuild app.asar">
+  </li>
+  
+  <hr />
+  <h3>Open xpanel-desktop.exe</h3>
+  <li>Return to the folder where you originally extracted all the files and open xpanel-desktop.exe</li>
+  <li>On the DPI page your new DPI should be there now! Enjoy :)</li>
+  <img src="https://github.com/user-attachments/assets/95c7bf41-1341-4bd1-9ef8-57e757f90a83" alt="Finsihed DPI!">
+</ol>
 
 
 
