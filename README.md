@@ -81,6 +81,7 @@ Set a Custom DPI For the XPANEL Desktop App
 <h3>Open xpanel-desktop.exe</h3>
 <li>Return to the folder where you originally extracted all the files and open xpanel-desktop.exe</li>
 <li>On the DPI page your new DPI should be there now! Enjoy :)</li>
+<img src="https://github.com/user-attachments/assets/95c7bf41-1341-4bd1-9ef8-57e757f90a83" alt="Finsihed DPI!">
 
 
 
