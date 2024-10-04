@@ -23,9 +23,19 @@ Set a Custom DPI For the XPANEL Desktop App
   <li>Delete original XPANEL download (delete xpanel-desktop.1.0.4.exe file, it is not needed)</li>
 </ol>
 
+<hr>
+
 <h3>Download npx</h3>
 
-<p>In order to edit the code for the dpi we will need to unpack the app.asar file and repack it after making our changes</p>
+<p>In order to edit the code for the dpi we will need npx to unpack the app.asar file and repack it after making our changes</p>
+
+<ol>
+  <li>Download NodeJs (npm)
+    <p>From this website download NodeJs (NodeJS comes with npm which we'll need to download npx) </p>
+    <p>https://nodejs.org/en/download/package-manager/current</p>
+    <p>You can follow this video guide if needed: https://www.youtube.com/watch?v=wbQPGgQqKf4</p>
+  </li>
+</ol>
 
 
 
