@@ -13,13 +13,11 @@ Set a Custom DPI For the XPANEL Desktop App
 
 <ol>
   <li>Desktop App https://xpanel.finalmouse.com/desktop</li>
-  <li>Create a folder/directory and place the xpanel desktop app in that folder
+  <li>Create a folder/directory and place the xpanel desktop app in that folder</li>
     <img src="https://github.com/user-attachments/assets/8ad2d665-0a19-423f-b96a-f234943c2c61" alt="new folder">
-  </li>
-  <li>Extract Files to that folder (or a new folder)
+  <li>Extract Files to that folder (or a new folder)</li>
     <img src="https://github.com/user-attachments/assets/61a6bc37-4d56-4ba5-949e-091395913be6" alt="extract xpanel files">
     <p>You should see all of the dev files for xpanel in one folder</p>
-  </li>
   <li>Delete original XPANEL download (delete xpanel-desktop.1.0.4.exe file, it is not needed)</li>
 </ol>
 
