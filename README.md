@@ -33,7 +33,35 @@ Set a Custom DPI For the XPANEL Desktop App
     <p>https://nodejs.org/en/download/package-manager/current</p>
     <p>You can follow this video guide if needed: https://www.youtube.com/watch?v=wbQPGgQqKf4</p>
   </li>
+  <li>With NodeJS and npm downloaded open a cmd terminal or powershell</li>
+  <li>Check the version of NodeJS and npm by excuting the following commands:
+    <p>'node -v' and 'npm -v'</p>
+    <img src="https://github.com/user-attachments/assets/55cea83e-da53-4bb4-a941-15a9ff948b88" alt="nodejs and npm commands">
+  </li>
+  <li>Install npx by typing in the following command: 'npm install -g npx'</li>
+  <li>Once installed check the version of npx with the following command: 'npx -v'
+    <img src="https://github.com/user-attachments/assets/82024276-b2b9-4328-82dc-5eeaeca178e6" alt="npx command">
+  </li>
 </ol>
+
+<hr>
+
+<h3>Unpack app.asar and change DPI</h3>
+
+<li>Finally with npx installed, within the xpanel folder with the files you extracted navigate to 'resources' folder</li>
+<li>Open a powershell window here via right click + shift or navigate to this folder in the cmd terminal
+  <img src="https://github.com/user-attachments/assets/9502b70e-b60a-4321-bcf0-e8e6b7eddbdf" alt="open powershell window">
+</li>
+<li>Excute the following command to unpack the app.asar file: 'npx asar extract app.asar unpack' the last word 'unpack' will be the name of the folder with the contents of app.asar
+  <img src="https://github.com/user-attachments/assets/dfc8a20b-8d9e-492b-9e90-d722b8131c2d" alt="unpack app.asar command">
+  <p>Navigate into the unpack folder to this destination: 'unpack\xpanel\dist\_next\static\chunks\app\dpi'</p>
+  <p>Open the javascript file 'page-29d5febe915cbaff' in any text editor of your choice ex. notepade, VsCode, sublime, etc. </p>
+  <p>If you open the javascript file in vscode or atom, be sure to formate the code to make this easier</p>
+  <p>CTRL+F to search for '6400'</p>
+  <img src="https://github.com/user-attachments/assets/d65cb785-284e-4b50-acf2-9fb2116326c5" alt="search for dpis">
+</li>
+
+
 
 
 
