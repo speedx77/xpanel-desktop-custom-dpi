@@ -47,19 +47,23 @@ Set a Custom DPI For the XPANEL Desktop App
 <hr>
 
 <h3>Unpack app.asar and change DPI</h3>
-
-<li>Finally with npx installed, within the xpanel folder with the files you extracted navigate to 'resources' folder</li>
-<li>Open a powershell window here via right click + shift or navigate to this folder in the cmd terminal
-  <img src="https://github.com/user-attachments/assets/9502b70e-b60a-4321-bcf0-e8e6b7eddbdf" alt="open powershell window">
-</li>
-<li>Excute the following command to unpack the app.asar file: 'npx asar extract app.asar unpack' the last word 'unpack' will be the name of the folder with the contents of app.asar
-  <img src="https://github.com/user-attachments/assets/dfc8a20b-8d9e-492b-9e90-d722b8131c2d" alt="unpack app.asar command">
-  <p>Navigate into the unpack folder to this destination: 'unpack\xpanel\dist\_next\static\chunks\app\dpi'</p>
-  <p>Open the javascript file 'page-29d5febe915cbaff' in any text editor of your choice ex. notepade, VsCode, sublime, etc. </p>
-  <p>If you open the javascript file in vscode or atom, be sure to formate the code to make this easier</p>
-  <p>CTRL+F to search for '6400'</p>
-  <img src="https://github.com/user-attachments/assets/d65cb785-284e-4b50-acf2-9fb2116326c5" alt="search for dpis">
-</li>
+<ol>
+  <li>Finally with npx installed, within the xpanel folder with the files you extracted navigate to 'resources' folder</li>
+  <li>Open a powershell window here via right click + shift or navigate to this folder in the cmd terminal
+    <img src="https://github.com/user-attachments/assets/9502b70e-b60a-4321-bcf0-e8e6b7eddbdf" alt="open powershell window">
+  </li>
+  <li>Excute the following command to unpack the app.asar file: 'npx asar extract app.asar unpack' the last word 'unpack' will be the name of the folder with the contents of app.asar
+    <img src="https://github.com/user-attachments/assets/dfc8a20b-8d9e-492b-9e90-d722b8131c2d" alt="unpack app.asar command">
+    <p>Navigate into the unpack folder to this destination: 'unpack\xpanel\dist\_next\static\chunks\app\dpi'</p>
+    <p>Open the javascript file 'page-29d5febe915cbaff' in any text editor of your choice ex. notepade, VsCode, sublime, etc. </p>
+    <p>If you open the javascript file in vscode or atom, be sure to formate the code to make this easier</p>
+    <p>CTRL+F to search for '6400'</p>
+    <img src="https://github.com/user-attachments/assets/d65cb785-284e-4b50-acf2-9fb2116326c5" alt="search for dpis">
+  </li>
+  <li>Within the ["400","800","1600","3200","6400"] change one of the numbers within the qoutation marks "" to your desired dpi for example: "["400","800","1600","1200","6400"]" I changed 3200 to be 1200 (good dpi for 27inch 1440p monitors when browsing)
+  </li>
+  <li>After making your changes save the file as a .js file (javascript file)</li>
+</ol>
 
 
 
