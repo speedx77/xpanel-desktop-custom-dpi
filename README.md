@@ -8,7 +8,7 @@ Set a Custom DPI For the XPANEL Desktop App
 <p>BIG SHOUTOUT to red0x0002 for creating the guide for the webpage, this guide will cover how to change the DPI options for the desktop application (this guide is for windows)</p>
 <p><strong>This is not an official FINALMOUSE guide, I am not responsible if anything may happen to your mouse.</strong></p>
 
-<hr>
+<hr/>
 <h3>Download and Extract XPANEL</h3>
 
 <ol>
@@ -21,7 +21,7 @@ Set a Custom DPI For the XPANEL Desktop App
   <li>Delete original XPANEL download (delete xpanel-desktop.1.0.4.exe file, it is not needed)</li>
 </ol>
 
-<hr>
+<hr/>
 
 <h3>Download npx</h3>
 
@@ -44,7 +44,7 @@ Set a Custom DPI For the XPANEL Desktop App
   </li>
 </ol>
 
-<hr>
+<hr/>
 
 <h3>Unpack app.asar and change DPI</h3>
 <ol>
